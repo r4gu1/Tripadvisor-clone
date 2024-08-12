@@ -1,0 +1,198 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+}
+
+body {
+  margin: 0; /* Reset default margin */
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding-left: calc(5% - 30px); /* Adjust to maintain the original intent */
+  padding-right: calc(5% - 30px); /* Adjust to maintain the original intent */
+}
+
+.title__s2 p, .title__s3 p {
+  display: inline-block;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.title button {
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Evenly distribute space around items */
+  bottom: 280;
+  background-color: #843f3f; /* Background color of the navbar */
+  color: white; /* Text color */
+  padding: 10px 30px; /* Padding on the top/bottom and left/right */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  z-index: 1000; /* Ensures navbar is above other content */
+  border-radius: 25px;
+  margin-left: 180px;
+  margin-right: 180px;
+  cursor: pointer;
+}
+
+.navbar div {
+  display: flex;
+  align-items: center; 
+  color: white; /
+}
+
+.navbar i {
+  margin-right: 10px; /* Space between the icon and text */
+}
+
+.navbar p {
+  margin: 0; 
+  font-size: 16px;
+}
+body::before {
+  content: "";
+  display: block;
+  height: 60px; 
+}
+
+
+
+.searchbar__s1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  border: solid black 1px;
+  border-radius: 25px;
+  padding: 10px;
+  position: relative;
+}
+
+.searchbar input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.searchbar__s2 {
+  background-color: rgb(86, 249, 86);
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+}
+
+.content {
+  width: calc(75% - 60px); /* Adjust to account for the extra padding */
+  height: 500px;
+  background-color: rgb(216, 184, 246);
+  margin-left:180px; /* Adjust to maintain the original intent */
+  border-radius: 20px;
+  margin-top: 60px;
+  position: relative;
+}
+
+.content__s1 {
+  width: 500px;
+  position: absolute;
+  left: 120px;
+  top: 30px;
+  bottom: 30px;
+  font-size: 22px;
+  border: none;
+}
+
+.content__s1 button {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 25px;
+  width: 330px;
+  gap: 3px;
+  background-color: black;
+  color: white;
+  font-family: bold;
+  cursor: pointer;
+}
+
+.row1 h4{
+  font-size: 20px;
+}
+.row11{
+  display: flex;
+  cursor: pointer;
+}
+.row11 img{
+  width: 90%;
+  position: relative;
+  left: 20px;
+}
+.time{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  position: relative;
+}
+.row21,.row31{
+  display: flex;
+  cursor: pointer;
+}
+.row21 img,.row31 img{
+  width: auto;
+  position: relative;
+  left: 20px;
+ margin: 10px;
+}
+
+.row21 h4,.row31 h4,.row21 h6,.row31 h6{
+  padding-left: 30px;
+}
+.row21 h3,.row31 h3{
+  font-size: 20px;
+}
+.footer1 img{
+  width: 100%;
+}
+.footer21{
+  padding-left: 130px;
+  position: relative;
+  
+}
+.footer21__1,.footer21__2,.footer21__3{
+  padding-left: 65px;
+}
+.footer2{
+  display: flex;
+  background-color: rgba(230, 200, 164, 0.429);
+}
+.footer21__4{
+  position: absolute;
+  padding-left: 760px;
+  padding-top: 40px;
+}
